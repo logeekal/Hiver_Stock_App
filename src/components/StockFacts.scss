@@ -1,0 +1,30 @@
+.stockChart-container{
+  margin: 10px 10px;
+}
+
+div[class^="stock-facts"]{
+  padding:10px;
+}
+
+.stock-facts__price{
+  font-size: 1.3rem;
+}
+
+.stock-facts__name{
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: bolder;
+
+}
+
+.stock-facts__change{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  span{
+    padding: 0px 5px;
+    font-size: 1.3rem;
+  }
+}
